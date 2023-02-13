@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+/*common css*/
+html,
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Arvo', serif;
+
+}
+
+/*header*/
+ .navbar-brand{
+ 	font-size: 1.5rem;
+
+ }
+.navlink{
+	font-size: 1.2rem;
+
+}
+
+/*home*/
+
+#home{
+	width: 100%;
+	min-height: 100vh;
+}
+#particles-js{
+	width: 100%;
+	min-height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #527cec;
+
+}
+
+#name{
+	margin-top: 16rem;
+	font-size: 4rem;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+
+}
+
+#tagline{
+	margin-top: 1rem;
+	font-size: 2rem;
+	color: #fff;
+	text-align: center;
+
+}
+
+#learn-more{
+	padding: .4rem 1 rem;
+	max-width: 12rem;
+	color: #fff;
+
+	margin: 0 auto;
+	display: block;
+	border: 2px solid #fff;
+	border-radius: 1rem;
+	text-align: center;
+	text-decoration: none;
+
+}
+#learn-more:hover{
+	text-decoration: none;
+}
+
+
+
+/* contact */
+
+#contact{
+	width: 100%;
+	height: auto;
+	padding: 4rem 0;
+}
+#contact form{
+	width: 100%;
+}
+
+#contact form input,
+#contact form textarea{
+	background: #e8edfc;
+
+	width: 100%;
+}
+#contact form .submit-message{
+	margin-left: 15px;
+	margin-right: 15px;
+	background: #525cec;
+	color : #fff;
+}
+/* footer */
+footer{
+	width: 100%;
+	height: auto;
+	background: #e8edfc;
+	padding-bottom: 0%;
+	
+}
+ footer ul{
+ 	list-style: none;
+ 	padding-left: 0;
+ 	color: #333;
+ }
+ footer.back-to-top{
+    display: block;
+    width: 100%;
+    text-align: right;
+    text-decoration: none;
+    color: #333;
+
+ }	
+footer .back-to-top:hover{
+	text-decoration: none;
+	text-align: right;
+	color: #333;
+}
+footer ul#social{
+ 	list-style: none;
+ 	padding-left: 0;
+ 	text-align: right;
+}
+footer ul#social li{
+	display: inline-block;
+	margin-left: 1rem;
+}
+
+footer ul#social li a{
+	text-decoration: none;
+	color: #333;
+    font-size: 2rem;
+}
+footer ul#social li a:hover{
+	text-decoration: none;
+	color: #333 ;
+	}
+footer a{
+color: #333;
+
+}
+footer a:hover{
+	color: #333;
+}
+footer p{
+	text-align: right;
+color: #333;
+}
